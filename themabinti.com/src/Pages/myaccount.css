@@ -1,0 +1,7 @@
+.myaccount-container{
+    background-color:#f1f3f9;
+}
+.myaccount-upper-component {
+    display: flex;
+    flex-direction: horizontal;
+}

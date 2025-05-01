@@ -1,0 +1,28 @@
+.navbar-top{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    font-size: 14px;
+    height: 35px;
+    background-color: #e6f1fc;
+}
+.catchPhrase{
+    display: flex;
+    flex-direction: horizontal;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    font-weight: 600;
+    color: #002d58;
+}
+.contact{
+    margin-left: 70%;
+    color: #002d58;
+    font-weight: 600;
+}
+/* Hide NavbarTop on mobile and tablet */
+@media (max-width: 768px) {
+    .navbar-top {
+        display: none;
+    }
+}

@@ -1,0 +1,135 @@
+.product-card{
+    position: relative;
+    display: flex;
+    padding:20px;
+    flex-direction: column;
+    width: 150px;
+    height:340px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 1px solid #d3d3d3;
+}
+.product-card:hover {
+    cursor: pointer;
+
+}
+.product-card-image{
+    width: 150px;
+    height:150px;
+
+}
+.product-card-image img{
+    width: 150px;
+    height:150px;
+}
+.product-name{
+    font-size: 16px;
+    color: #2e2f32;
+
+}
+.product-price{
+    font-size: 14px;
+    color: #222222;
+    font-weight: 600;
+}
+.previous-product-price{
+    font-size: 12px;
+    font-weight: 600;
+    color: #74767c;
+}
+.like-button{
+    margin-left: 85%;
+}
+.custom-button {
+    display:flex;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    border: 2px solid #0071dc;
+    border-radius: 20px;
+    background-color: #0071dc;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+}
+.phone-number p{
+    display:flex;
+    flex-direction: horizontal;
+    align-items: center;
+    color: #a25aff;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+    .product-card{
+        position: relative;
+        display: flex;
+        padding:20px;
+        flex-direction: column;
+        width: calc(30% - 5px);
+        height:340px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 10px;
+        margin-left: 5px;
+        border: 1px solid #d3d3d3;
+    }
+    .product-card:hover {
+        cursor: pointer;
+    
+    }
+    .product-card-image{
+        width: 100px;
+        height:100px;
+    
+    }
+    .product-card-image img{
+        width: 100px;
+        height:100px;
+    }
+    .product-name{
+        font-size: 16px;
+        color: #2e2f32;
+    
+    }
+    .product-price{
+        font-size: 14px;
+        color: #222222;
+        font-weight: 600;
+    }
+    .previous-product-price{
+        font-size: 12px;
+        font-weight: 600;
+        color: #74767c;
+    }
+    .like-button{
+        margin-left: 85%;
+    }
+    .custom-button {
+        display:flex;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        border: 2px solid #0071dc;
+        border-radius: 20px;
+        background-color: #0071dc;
+        cursor: pointer;
+        color: white;
+        position: absolute;
+        bottom: 5px;
+    }
+    .phone-number p{
+        display:flex;
+        flex-direction: horizontal;
+        align-items: center;
+        color: #a25aff;
+        font-weight: 600;
+    }
+
+}

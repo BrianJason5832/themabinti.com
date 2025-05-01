@@ -1,0 +1,14 @@
+.about-us-inner{
+    width:80%;
+    padding-left: 5%;
+    padding-right: 15%;
+    height:225px;
+    padding-top: 25px;
+}
+.about-us-inner h2{
+    color: #313133;
+}
+.about-us-inner p{
+    font-size: 15px;
+    line-height: 2em;
+}

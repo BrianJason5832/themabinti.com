@@ -1,0 +1,30 @@
+.search-container{
+    display: flex;
+    flex-direction: horizontal;
+}
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .service-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .service-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .service-card h3 {
+    margin: 10px 0;
+  }
+  
+  .service-card p {
+    margin: 5px 0;
+  }

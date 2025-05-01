@@ -1,0 +1,37 @@
+.blog-list {
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+display: grid;
+gap: 20px;
+}
+
+.blog-card {
+border: 1px solid #ddd;
+padding: 15px;
+border-radius: 8px;
+background-color: #fff;
+}
+
+.blog-card h3 {
+margin: 0 0 10px;
+color: #333;
+}
+
+.blog-card p {
+margin: 0 0 10px;
+color: #666;
+}
+
+.read-more {
+display: inline-block;
+padding: 8px 16px;
+background-color: #a25aff;
+color: white;
+text-decoration: none;
+border-radius: 4px;
+}
+
+.read-more:hover {
+background-color: #8a4cd6;
+}

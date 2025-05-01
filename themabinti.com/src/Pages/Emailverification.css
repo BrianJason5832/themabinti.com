@@ -1,0 +1,76 @@
+.email-verification{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.email-verification h2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.email-verification p{
+    font-size:16px;
+    color:#4a4a4a;
+}
+.email-verification input{
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 1px solid grey;
+    border-radius:5px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.email-verification input:focus{
+    border: 2px solid #f68b1e;
+}
+.email-verification button{
+    margin-top: 30px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #f68b1e;
+    color:#fff;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 1px solid #f68b1e;
+    border-radius:5px;
+    font-weight:600;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.terms-and-conditions{
+    font-size: 12px;
+    margin-top: 30px;
+    width: 230px;
+    margin-left: 25%;
+}
+.terms-and-conditions a{
+    color:#f68b1e;
+    margin-left: 2px;
+}
+.signup-support{
+    font-size: 14px;
+    color: black;
+    margin-top: 30px;
+}
+.input-container{
+    display: flex;
+    flex-direction: horizontal;
+    margin-left: 25px;
+}
+.input-container input{
+    width: 50px;
+    margin-right: 30px;
+}
+.input-container input:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.request-new-code{
+    margin-top: 20px;
+    font-weight: 600;
+    color:#f68b1e;
+}

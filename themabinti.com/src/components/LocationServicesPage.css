@@ -1,0 +1,37 @@
+.location-services-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .location-services-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Ensure ProductCard margins are handled by services-list */
+  .services-list .product-card {
+    margin-right: 0; /* Override ProductCard's margin-right */
+    margin-bottom: 20px;
+  }
+  
+  .location-services-page p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .location-services-page a {
+    color: #0071dc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .location-services-page a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,36 @@
+.subcategory-services-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .subcategory-services-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .services-list .product-card {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  
+  .subcategory-services-page p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .subcategory-services-page a {
+    color: #0071dc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .subcategory-services-page a:hover {
+    text-decoration: underline;
+  }

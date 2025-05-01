@@ -1,0 +1,60 @@
+.signup{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signup h2{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.signup p{
+    font-size:16px;
+    color:#4a4a4a;
+}
+.signup input{
+    width:100%;
+    margin-top: 10px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 1px solid grey;
+    border-radius:5px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.signup input:focus{
+    border: 2px solid #a25aff;
+}
+.signup .signup-login-button button{
+    margin-top: 30px;
+    font-size: 16px;
+    background-color: #a25aff;
+    color:#fff;
+    width: 100%;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border: 1px solid #a25aff;
+    border-radius:5px;
+    font-weight:600;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.terms-and-conditions{
+    font-size: 12px;
+    margin-top: 30px;
+    width: 230px;
+    margin-left: 25%;
+}
+.terms-and-conditions a{
+    color:#a25aff;
+    margin-left: 2px;
+}
+.signup-support{
+    font-size: 14px;
+    color: black;
+    margin-top: 30px;
+}

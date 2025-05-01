@@ -1,0 +1,21 @@
+/* frontend/src/components/BlogDetail.css */
+.blog-detail-inner{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+  
+  .blog-detail h2 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .blog-detail p {
+    margin: 0 0 20px;
+    color: #666;
+  }
+  
+  .content {
+    line-height: 1.6;
+    color: #333;
+  }
