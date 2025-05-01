@@ -8,8 +8,6 @@ import Navbar from '../Navbar';
 import NavbarBottom from '../NavbarBottom';
 import Footer from '../Footer';
 
-// Set axios base URL
-axios.defaults.baseURL = 'http://localhost:5000';
 
 const LocationServicesPage = () => {
   const { location } = useParams();
