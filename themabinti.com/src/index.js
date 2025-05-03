@@ -21,6 +21,9 @@ import BlogDetail from './components/blogdetail';
 import PostBlog from './components/postblog';
 import LocationServicesPage from './components/LocationServicesPage';
 import SubcategoryServicesPage from './components/SubcategoryServicesPage';
+import ChoosePackage from './Pages/ChoosePackage'
+import TypeSelect from './Pages/TypeSelect';
+import PostYourService from './Pages/PostYourService';
 
 const router = createBrowserRouter([
   {
@@ -70,6 +73,18 @@ const router = createBrowserRouter([
   {
     path: '/services/:category/:subcategory',
     element: <SubcategoryServicesPage />,
+  },
+  {
+    path: '/ChoosePackage', 
+    element: <ChoosePackage />,
+  },
+  {
+    path: '/TypeSelect', 
+    element: <TypeSelect/>,
+  },
+  {
+    path: '/PostYourService', 
+    element: <PostYourService/>,
   },
   {
     element: <ProtectedRoute />,
